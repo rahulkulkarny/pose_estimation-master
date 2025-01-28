@@ -1,20 +1,12 @@
-# Pose Detection in the Browser: PoseNet Model
+# Pose Detection / Post Estimation
 
 ## Overview
 
-This is the code for [this](https://youtu.be/9KqNk5keyCc) video on Youtube by Siraj Raval. 
-
 This package contains a standalone model called PoseNet, as well as some demos, for running real-time pose estimation in the browser using TensorFlow.js.
-
-[Try the demo here!](https://storage.googleapis.com/tfjs-models/demos/posenet/camera.html)
-
-<img src="https://raw.githubusercontent.com/irealva/tfjs-models/master/posenet/demos/camera.gif" alt="cameraDemo" style="width: 600px;"/>
 
 PoseNet can be used to estimate either a single pose or multiple poses, meaning there is a version of the algorithm that can detect only one person in an image/video and one version that can detect multiple persons in an image/video.
 
 [Refer to this blog post](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5) for a high-level description of PoseNet running on Tensorflow.js.
-
-To keep track of issues we use the [tensorflow/tfjs](https://github.com/tensorflow/tfjs) Github repo.
 
 ## Installation
 
@@ -506,11 +498,4 @@ This produces the output:
 ]
 ```
 
-## Developing the Demos
 
-Details for how to run the demos are included in the `demos/` folder.
-
-
-## Credits
-
-Credits for this code go to Google
